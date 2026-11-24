@@ -1,0 +1,95 @@
+{
+  "n": 8,
+  "h": 3,
+  "A": 100,
+  "modules": [
+    {
+      "id": 1,
+      "direction": 1,
+      "a": 25,
+      "b": 20
+    },
+    {
+      "id": 2,
+      "direction": 1,
+      "a": 35,
+      "b": 30
+    },
+    {
+      "id": 3,
+      "direction": 2,
+      "a": 30,
+      "b": 25
+    },
+    {
+      "id": 4,
+      "direction": 2,
+      "a": 20,
+      "b": 15
+    },
+    {
+      "id": 5,
+      "direction": 3,
+      "a": 15,
+      "b": 18
+    },
+    {
+      "id": 6,
+      "direction": 1,
+      "a": 25,
+      "b": 16
+    },
+    {
+      "id": 7,
+      "direction": 3,
+      "a": 20,
+      "b": 12
+    },
+    {
+      "id": 8,
+      "direction": 2,
+      "a": 15,
+      "b": 14
+    }
+  ],
+  "directions": [
+    {
+      "id": 1,
+      "u": 2,
+      "is_priority": true
+    },
+    {
+      "id": 2,
+      "u": 2,
+      "is_priority": false
+    },
+    {
+      "id": 3,
+      "u": 2,
+      "is_priority": true
+    }
+  ],
+  "L": 3,
+  "pairs": [
+    {
+      "i": 1,
+      "j": 2,
+      "gamma": 5.0
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "gamma": 8.0
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "gamma": 6.0
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "gamma": 4.0
+    }
+  ]
+}
